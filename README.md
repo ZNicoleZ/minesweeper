@@ -1,70 +1,33 @@
-# Getting Started with Create React App
+# Space Minesweeper🪐🛸   [(Try it out here)](https://znicolez.github.io/minesweeper/)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 🎯 Mission Briefing
 
-## Available Scripts
+Our mission is to save the Space Expedition! After crashing on an uncharted planet, our crew must watch their steps. Help us navigate the treacherous terrain and ensure our survival. We must use advanced detection technology to uncover hidden dangers — unseen landmines that could spell disaster for the crew and our mission. It's a race against time to clear the path and secure our journey through the cosmos.
 
-In the project directory, you can run:
+![image](https://github.com/ZNicoleZ/minesweeper/assets/80704425/8a02c025-7abe-4b52-ae7e-3a693edcfe91)
 
-### `npm start`
+<br></br>
+## ⚙️ Gameplay Instructions
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Flagging Cells**: Right-click on a cell to place a flag. Use this to mark suspected mine locations. Flags are essential for strategizing and avoiding potential mines.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Revealing Cells**: Left-click on a cell to reveal its contents. Be cautious! Uncover safe areas to progress while avoiding hidden landmines.
 
-### `npm test`
+<br></br>
+## 🕹️ How to Play
+1. Launch the game by clicking [HERE](https://znicolez.github.io/minesweeper/).
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2. A grid of cells will appear, representing the uncharted terrain of the planet.
 
-### `npm run build`
+3. Right-click on a cell to place a flag where you suspect a mine.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+4. Left-click on a cell to reveal its contents. The numbers on the revealed cells indicate the number of adjacent mines. Use this information to make informed decisions.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+5. Continue flagging and revealing cells strategically until you've cleared all safe areas or identified all mines.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+6. Your goal is to uncover all safe cells without triggering any mines.
 
-### `npm run eject`
+<br></br>
+## Good Luck, Commander! 🚀
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Navigate the hazardous terrain, use your wits, and lead our crew to safety. The fate of the Space Expedition rests in your hands. May the stars be with you!
