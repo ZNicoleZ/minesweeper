@@ -141,11 +141,24 @@ const Board = () => {
                 </div>
             </div>
             <div className="instructions">
-                <p>Left Click to Reveal &lt;&lt;</p>
-                <p>🖱️</p>
-                <p>&gt;&gt; Right Click to Flag</p>
+                <div className="instrContainer">
+                    <div className="left-sentence">Left Click to Reveal</div>
+                    <div className="planet"><b>Help</b></div>
+                    <div className="right-sentence">Right Click to Flag</div>
+                </div>
+                <div className="description">
+                            <div className="missionTitle">
+                                <b>Our mission is to save the Space Expedition!</b>
+                            </div>
+                            <div className="missionDescription">
+                                After crashing on an uncharted planet, our crew needs to watch their steps. 
+                                Help us to navigate the treacherous terrain and ensure our survival. 
+                                We must use advanced detection technology to uncover hidden dangers — 
+                                unseen landmines that could spell disaster for the crew and our mission. 
+                                It's a race against time to clear the path and secure our journey through the cosmos.
+                            </div>
+                </div>
             </div>
-            {/* <div className="bombPic"></div> */}
         </div>
     )
 };

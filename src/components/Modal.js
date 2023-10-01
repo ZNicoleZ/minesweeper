@@ -3,9 +3,9 @@ import Confetti from "react-confetti";
 
 export default function Modal({restartGame, winGame}) {
     const [render, setRender] = useState(false);
-    let endText = "Game Over";
+    let endText = "Mission Failed";
     if(winGame){
-        endText = "Winner!";
+        endText = "Mission Complete!";
     }
     
     useEffect(() => {
