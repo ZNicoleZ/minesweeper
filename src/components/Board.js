@@ -13,13 +13,10 @@ const Board = () => {
     const [gameReset, setGameReset] = useState(false);
     const [flagCount, setFlagCount] = useState(0);
     const [winGame, setWinGame] = useState(false);
-    const [showBomb, setShowBomb] = useState(false);
     const rows = 10, cols = 17, bombs = Math.floor(rows*cols/7);
 
     // ComponentDidMount
     useEffect(() => {
-
-        // Create board
         freshBoard();
 
     }, []);
@@ -33,15 +30,10 @@ const Board = () => {
     }
 
     const restartGame = () => {
-        // freshBoard();
-        // setGameReset(true);
-        // setWinGame(false);
-        // setGameOver(false);
-
+   
         freshBoard();
 
         setTimeout(() => {
-            // freshBoard();
             setGameReset(true);
             setWinGame(false);   
             setGameOver(false);         

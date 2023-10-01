@@ -17,15 +17,11 @@ export default function Modal({restartGame, winGame}) {
     const handleTryAgainClick = () => {
         setRender(false);
         restartGame();
-        // setTimeout(() => {
-        //     restartGame();
-        // }, 100);
     };
 
     return (
         <div className="modal"
             style={{
-                // opacity: render ? 1 : 0,
                 transform: render ? "translateY(0)" : "translateY(-100%)",
             }}
         >

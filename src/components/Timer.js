@@ -1,21 +1,7 @@
 import { useEffect, useState } from "react";
 
 export default function Timer({gameOver, gameReset}){
-    // let [time, setTime] = useState(0);
-
-    // useEffect(() => {
-    //     function incrementTime(){
-    //         setTimeout(() => {
-    //             let newTime = time;
-    //             if(!gameOver){
-    //                 newTime = time + 1;
-    //             }
-    //             setTime(newTime);
-    //         }, 1000)
-    //     }
-    //         incrementTime();
-    // }, [time]);
-
+    
     const [isActive, setIsActive] = useState(true);
     const [time, setTime] = useState(0);
 
@@ -45,7 +31,6 @@ export default function Timer({gameOver, gameReset}){
     };
 
     return (
-        // <div>⏰  {Math.floor(time/60)}:{time%60}</div>
         <div>
             ⏰ {String(Math.floor(time / 60)).padStart(2, '0')}:{(time % 60).toString().padStart(2, '0')}
         </div>
